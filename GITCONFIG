@@ -1,0 +1,7 @@
+~/.gitconfig
+```
+[pull]
+        rebase = false
+[alias]
+        lg = log origin --graph --pretty=format:'%Cred%h%Creset - %s %Cgreen(%ar) %C(bold blue)[%an]%Creset%C(yellow)%d%Creset' --abbrev-commit
+```
