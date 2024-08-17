@@ -1,5 +1,7 @@
 Neovim setup files for easy replication
 
+Theme: One Dark Pro 
+Font: Nerd Font (JetBrains Mono)
 ## (Optional) Neovim install steps for Linux AppImage
 `sudo apt update`  
 
@@ -33,3 +35,4 @@ wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/do
 && rm JetBrainsMono.zip \
 && fc-cache -fv
 ```
+
