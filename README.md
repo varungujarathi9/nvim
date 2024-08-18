@@ -1,7 +1,17 @@
 Neovim setup files for easy replication
 
-Theme: One Dark Pro 
-Font: Nerd Font (JetBrains Mono)
+Theme: One Dark Pro   
+Font: Nerd Font (JetBrains Mono)  
+
+## To install Language Servers, Linters and Formatters  
+1. `:Mason` - Install LSP, DAP, Linters & Formatters
+2. In `null-ls` add support fot Linter & Formatter to be used as LSP
+3. You need to install the linter, formatter package in your system as well
+
+## To install debuggers
+1. Go to [https://github.com/mfussenegger/nvim-dap/wiki/Debug-Adapter-installation](https://github.com/mfussenegger/nvim-dap/wiki/Debug-Adapter-installation) and find instructions to install the DAP.
+2. Make sure DAP is install in system as well
+
 ## (Optional) Neovim install steps for Linux AppImage
 `sudo apt update`  
 
