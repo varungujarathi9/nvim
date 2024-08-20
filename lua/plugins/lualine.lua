@@ -5,6 +5,13 @@ return {
 			options = {
 				theme = "onedark",
 			},
+      sections = {
+        lualine_c = {
+          {
+            'buffers',
+         }
+        }
+      }
 		})
-	end,
+	end
 }
