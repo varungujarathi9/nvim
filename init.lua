@@ -1,3 +1,3 @@
 require("vim-options")
---require("remap")
+require("remap")
 require("config.lazy")
