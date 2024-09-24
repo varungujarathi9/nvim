@@ -1,7 +1,7 @@
 Neovim setup files for easy replication
 
-Theme: One Dark Pro   
-Font: Nerd Font (JetBrains Mono)  
+**Theme**: One Dark   
+**Font**: Nerd Font (JetBrains Mono)  
 
 ## To install Language Servers, Linters and Formatters  
 1. `:Mason` - Install LSP, DAP, Linters & Formatters
