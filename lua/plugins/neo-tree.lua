@@ -3,10 +3,21 @@ return {
   branch = "v3.x",
   dependencies = {
     "nvim-lua/plenary.nvim",
-    "nvim-tree/nvim-web-devicons", 
+    "nvim-tree/nvim-web-devicons",
     "MunifTanjim/nui.nvim",
   },
   config = function()
-    vim.keymap.set('n', '<C-b>', ':Neotree filesystem reveal left<CR>', {})
-  end
+    vim.keymap.set("n", "<C-b>", ":Neotree toggle last<CR>", {})
+    require("neo-tree").setup({
+      event_handlers = {
+
+        {
+          event = "file_open_requested",
+          handler = function()
+            require("neo-tree.command").execute({ action = "close" })
+          end,
+        },
+      },
+    })
+  end,
 }
